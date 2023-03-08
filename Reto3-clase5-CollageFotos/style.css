@@ -1,0 +1,130 @@
+h1{
+    background-color: #CC99FF;
+    margin: 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 850px;
+    border: 4px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contenedor{
+    width: 850px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #CCCCFF;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    gap: 15px;
+    place-content: center;
+    grid-template-areas: 
+    "area1 area2 area2"
+    "area3 area3 area4"
+    "area5 area6 area7"
+    ;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 4px solid black;
+
+}
+
+.item-1{
+    grid-area: area1;
+}
+
+.item-2{
+    grid-area: area2;
+}
+
+.item-3{
+    grid-area: area3;
+}
+
+.item-4{
+    grid-area: area4; 
+}
+
+.item-5{
+    grid-area: area5;
+
+}
+
+.item-6{
+    grid-area: area6;
+}
+
+.item-7{
+    grid-area: area7; 
+}
+
+.item-1 span, .item-4 span, .item-5 span, .item-6 span, .item-7 span {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: azure;
+    border:4px solid black;
+}
+
+.item-2 span, .item-3 span{
+    display: block;
+    width: 515px;
+    height: 250px;
+    background-color: azure;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.item-1 span{
+    background-image: url(../fotos-reto5/area1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-2 span{
+    background-image: url(../fotos-reto5/area2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-3 span{
+    background-image: url(../fotos-reto5/area3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-4 span{
+    background-image: url(../fotos-reto5/area4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-5 span{
+    background-image: url(../fotos-reto5/area5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-6 span{
+    background-image: url(../fotos-reto5/area6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.item-7 span{
+    background-image: url(../fotos-reto5/area7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
