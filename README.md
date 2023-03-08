@@ -3,9 +3,9 @@ Código relacionado al curso, principalmente de CSS y las propiedades derivadas 
 
 Visualiza las demos de las clases y retos:
 
-Clase3:
+Clase3: https://raulsr92.github.io/Curso-CSS-grid-basic/Clase3/index.html
 Reto1-clase3: https://raulsr92.github.io/Curso-CSS-grid-basic/Reto1/index.html
-Clase4:
+Clase4:https://raulsr92.github.io/Curso-CSS-grid-basic/Clase4/index.html
 Reto2-clase4:
 
 
