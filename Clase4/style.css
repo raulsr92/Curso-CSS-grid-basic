@@ -1,0 +1,23 @@
+.contenedor{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    height: 600px;
+    display: grid;
+    grid-auto-rows: 150px;
+    grid-template-columns: 150px 150px 150px;
+    gap: 15px;
+    justify-content: center;
+    align-content: center;
+    justify-items: end;
+    align-items: start;
+}
+
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 4rem;
+}
+
+.item-2{
+    justify-self: start;
+    align-self: end;
+}
