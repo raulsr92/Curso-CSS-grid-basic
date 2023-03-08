@@ -11,4 +11,6 @@ Visualiza las demos de las clases y retos:
 
 ✅Reto2-clase4:https://raulsr92.github.io/Curso-CSS-grid-basic/Reto2-clase4/index.html
 
+📕Clase5:https://raulsr92.github.io/Curso-CSS-grid-basic/Clase5/index-forma2.html
+
 
