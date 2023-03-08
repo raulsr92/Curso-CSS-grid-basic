@@ -15,4 +15,6 @@ Visualiza las demos de las clases y retos:
 
 ✅Reto3-clase5:https://raulsr92.github.io/Curso-CSS-grid-basic/Reto3-clase5/index.html
 
+💡 Reto3-clase5-collage de fotos:https://raulsr92.github.io/Curso-CSS-grid-basic/Reto3-clase5-CollageFotos/index.html
+
 
