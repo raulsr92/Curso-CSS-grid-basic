@@ -1,0 +1,35 @@
+.contenedor{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    margin-bottom: 100px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.contenedor-2{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.contenedor-3{
+    border: 5px solid #e1bee7;
+    background-color: #fff1ff;
+    display: grid;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.item{
+    border: 5px solid #00bcd4;
+    font-size: 2rem;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
