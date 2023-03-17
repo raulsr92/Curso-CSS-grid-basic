@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+main{
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 10px auto;
+}
+
+.header{
+    color: #717977;
+    font-size: 18px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+/** Seccion 1**/
+
+.header1{
+    text-transform: uppercase;
+}
+
+.contenedor-1{
+    width: 100%;
+    min-width: 320px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 220px;
+}
+
+.contenedor-1 .item-1{
+    background-color: #CB4335;
+}
+.contenedor-1 .item-2{
+    background-color: #F1948A;
+}
+
+/** Seccion 2**/
+
+.contenedor-2{
+    width: 80%;
+    min-width: 320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 150px);
+    grid-template-areas: 
+    "bloque1 bloque1 bloque2 bloque3"
+    "bloque1 bloque1 bloque4 bloque5"
+    ;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.contenedor-2 .item-1{
+    background-color: #884EA0;
+    grid-area: bloque1;
+}
+.contenedor-2 .item-2{
+    background-color: #9B59B6 ;
+    grid-area: bloque2;
+}
+.contenedor-2 .item-3{
+    background-color: #AF7AC5  ;
+    grid-area: bloque3;
+}
+.contenedor-2 .item-4{
+    background-color: #C39BD3;
+    grid-area: bloque4;
+}
+.contenedor-2 .item-5{
+    background-color: #D7BDE2 ;
+    grid-area: bloque5;
+}
+
+/** Seccion 3**/
+
+.contenedor-3{
+    width: 80%;
+    min-width: 320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 120px;
+    column-gap: 10px;
+}
+
+.contenedor-3 .item-1{
+    background-color: #138D75;
+    border-top-left-radius: 25px;
+}
+.contenedor-3 .item-2{
+    background-color: #16A085;
+    border-top-left-radius: 25px;
+
+}
+.contenedor-3 .item-3{
+    background-color: #45B39D ;
+    border-top-left-radius: 25px;
+
+}
+.contenedor-3 .item-4{
+    background-color: #73C6B6;
+    border-top-left-radius: 25px;
+
+}
+.contenedor-3 .item-5{
+    background-color: #A2D9CE ;
+    border-top-left-radius: 25px;
+
+}
