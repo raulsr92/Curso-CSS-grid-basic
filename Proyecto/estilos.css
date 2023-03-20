@@ -7,9 +7,12 @@
 }
 
 main{
-    max-width: 1200px;
+    max-width: 800px;
     min-width: 320px;
-    margin: 10px auto;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
 }
 
 .header{
@@ -111,32 +114,79 @@ main{
 }
 
 /** Seccion 3**/
+
+main section:nth-child(3){
+    margin-bottom: 15px;
+}
 .contenedor-3{
     width: 80%;
+    height: 120px;
     min-width: 320px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 120px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
     column-gap: 10px;
+    row-gap: 10px;
 }
 .contenedor-3 .item-1{
-    background-color: #138D75;
+    background-color: #F9EFE8;
     border-top-left-radius: 25px;
+    background-image: url(./fotos/plate1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 4px 0px #D35400;
 }
+
 .contenedor-3 .item-2{
-    background-color: #16A085;
+    background-color: #F9EFE8;
     border-top-left-radius: 25px;
+    background-image: url(./fotos/plate2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 4px 0px #D35400;
+
 }
 .contenedor-3 .item-3{
-    background-color: #45B39D ;
+    background-color: #F9EFE8 ;
     border-top-left-radius: 25px;
+    background-image: url(./fotos/plate3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 4px 0px #D35400;
+
 }
 .contenedor-3 .item-4{
-    background-color: #73C6B6;
+    background-color: #F9EFE8;
     border-top-left-radius: 25px;
+    background-image: url(./fotos/plate4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 4px 0px #D35400;
+
 }
 .contenedor-3 .item-5{
-    background-color: #A2D9CE ;
+    background-color: #F9EFE8 ;
     border-top-left-radius: 25px;
+    background-image: url(./fotos/plate5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 4px 0px #D35400;
+}
+
+.contenedor-3 .item-1:hover,
+.contenedor-3 .item-2:hover,
+.contenedor-3 .item-3:hover,
+.contenedor-3 .item-4:hover,
+.contenedor-3 .item-5:hover
+{
+    background-color: #EDBB99;
+    border: 2px solid #D35400;
+
 }
