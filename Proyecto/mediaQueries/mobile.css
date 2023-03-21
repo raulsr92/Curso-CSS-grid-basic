@@ -1,0 +1,65 @@
+/** Medias Queries - Seccion 1**/
+
+.contenedor-1{
+    grid-template-columns: 1fr;
+    position: relative;
+}
+
+.img-mobile{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.20;
+    position: absolute;
+    top: 0;
+}
+
+.item-2 img{
+    display: none;
+}
+
+.contenedor-1 .item-1{
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.item-1 a{
+    margin: 15px auto 0px;
+    z-index: 100;
+    position: absolute;
+    right: calc(50% - 75px);   
+}
+
+.item-1 p{
+    max-width: 250px;
+    margin: 15px auto 0px;
+    
+}
+
+
+/** Medias Queries - Seccion 2**/
+
+.contenedor-2{
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas: 
+    "bloque1 bloque1 bloque2"
+    "bloque1 bloque1 bloque3"
+    "bloque4 bloque5 . ";
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+/** Medias Queries - Seccion 3**/
+
+.contenedor-3{
+    height: 240px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, auto);
+
+}
+
+
